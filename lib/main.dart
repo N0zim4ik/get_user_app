@@ -23,6 +23,8 @@ Future<void> main() async {
       body: Center(
         child: Image(
           image: NetworkImage("${userModel.image}"),
+          width: 200,
+          height: 200,
         ),
       ),
     ),
